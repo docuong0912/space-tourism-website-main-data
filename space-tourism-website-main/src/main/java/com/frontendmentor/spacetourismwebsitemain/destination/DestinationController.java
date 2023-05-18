@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(path = "api/v1/destination")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins={"http://localhost:3000","https://space-tourism-website-main-cszn.vercel.app"})
 public class DestinationController {
     
     private final DestinationService dService;
