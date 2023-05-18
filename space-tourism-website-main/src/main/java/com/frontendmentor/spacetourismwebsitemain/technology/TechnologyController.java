@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(path = "api/v1/technology")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://space-tourism-website-main-cszn.vercel.app")
 public class TechnologyController {
     private final TechnologyService service;
     @Autowired
