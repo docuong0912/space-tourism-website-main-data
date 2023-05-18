@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(path = "api/v1/crew")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("https://space-tourism-website-main-cszn.vercel.app")
 public class CrewController {
     private final CrewService service;
     @Autowired
